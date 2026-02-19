@@ -1,16 +1,23 @@
-# React + Vite
+# f0h6m.github.io
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is the source code for my personal website, built using React and Vite.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Fast Refresh using [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react)
+- ESLint rules for React and TypeScript
+- TypeScript support with type-aware lint rules enabled
 
-## React Compiler
+## Getting started
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+To get started with the development of this website, clone the repository and run `npm install` in the root directory.
 
-## Expanding the ESLint configuration
+After the installation is complete, you can start the development server by running `npm run dev`. This will start the Vite development server, which will automatically reload the page when you make changes to the source code.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Building the website
+
+To build the website, run `npm run build`. This will create a production-ready build of the website in the `dist` directory.
+
+## Deploying the website
+
+To deploy the website, you can use the GitHub Pages workflow provided in the `.github/workflows/deploy.yml` file. This workflow will automatically build and deploy the website to GitHub Pages whenever changes are pushed to the `main` branch.
